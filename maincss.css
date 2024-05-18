@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+.navbar-brand {
+  align-content: center;
+  margin: 0 5px 3px 0;
+  width: 105px;
+}
+#nav-header {
+  display: grid;
+  grid-template-columns: 1fr 15.3fr;
+}
+
+.navbar-nav {
+  display: flexbox;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.section1 {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 2fr 2fr 2fr;
+  width: 100%;
+  gap: 10px;
+}
+
+.section2 {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 10px;
+}
+
+.sections {
+  padding: 20px;
+  margin: 0 20px;
+}
+
+img {
+  height: 500px;
+  border: solid 1px;
+  width: 100%;
+}
+
+footer {
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color: #fff;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn {
+  margin: 15px auto 0 auto;
+  width: 100%;
+  background-color: gray;
+}
+
+.nav-btn {
+  list-style-type: none;
+  text-decoration: none;
+  color: #333;
+}
+
+ul > a > li {
+  border-top: none;
+  border-right: solid 2px #333;
+  border-bottom: solid 2px #333;
+  border-left: none;
+  margin: 8px 10px;
+  box-shadow: #ccc 0 2px 5px 0;
+  padding: 5px;
+}
+
+ul > a > li:hover {
+  transform: scale(1.2);
+}
+
+.container-reg {
+  margin: 200px auto;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  justify-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-reg:hover {
+  background-color: palegreen;
+}
