@@ -1,4 +1,4 @@
-<p style="text-align: center;"># A project as part of the Lumify Learn Certificate IV in Information Technology (Web Development)</p>
+# <div style="text-align: center;">A project as part of the Lumify Learn Certificate IV in Information Technology (Web Development)</div>
 ## A mock CRM interface with a register form page
 Languages:
 - HTML5
